@@ -47,7 +47,7 @@ const PROJECTS = [
     image: "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=800&q=80",
   },
   {
-    title: "NoirSalt Restaurant",
+    title: "Noir & Salt Restaurant",
     url: "https://noirsalt.netlify.app/",
     desc: "Luxury dark-themed restaurant website with premium menu showcase.",
     tag: "Restaurant",
@@ -325,7 +325,7 @@ function Hero() {
           fontSize:13, color:"#a78bfa", fontWeight:500,
         }}>
           <HiSparkles size={14} color="#a78bfa" style={{ animation:"pulseGlow 2s infinite" }} />
-          Web Design Studio · Chennai, Tamil Nadu
+          Web Design Studio 
         </div>
 
         <h1 style={{
@@ -538,7 +538,7 @@ function Projects() {
           <div style={{ color:"#f472b6", fontSize:13, fontWeight:600, letterSpacing:3, textTransform:"uppercase", marginBottom:16 }}>Our Work</div>
           <h2 className="section-title">Featured Projects</h2>
           <p style={{ color:"rgba(255,255,255,.5)", marginTop:16, fontSize:15, maxWidth:460, margin:"16px auto 0" }}>
-            Real websites we've built for real clients
+          
           </p>
         </div>
 
