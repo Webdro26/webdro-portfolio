@@ -31,8 +31,8 @@ const SERVICES = [
 // Unsplash images chosen to match each project theme
 const PROJECTS = [
   {
-    title: "Apex Fitness",
-    url: "https://apexlift.netlify.app/",
+    title: "Aura Fitness",
+    url: "https://fitnessaura.netlify.app/",
     desc: "Modern gym website with bold responsive UI and energetic design.",
     tag: "Fitness",
     color: "#f97316",
@@ -821,7 +821,7 @@ function Footer() {
             {[
               { Icon:FaInstagram, href:"https://instagram.com/webdro26",    color:"#e1306c" },
               { Icon:FaEnvelope,  href:"mailto:webdro26@gmail.com",          color:"#60a5fa" },
-              { Icon:FaPhone,     href:"tel:+918883091192",                  color:"#34d399" },
+              { Icon:FaPhone,     href:"tel:+918883091192",                  color:"#21835f" },
               { Icon:FaWhatsapp,  href:"https://wa.me/918883091192",         color:"#25d366" },
             ].map(({ Icon, href, color }, i) => (
               <a key={i} href={href} target="_blank" rel="noreferrer" style={{
@@ -866,6 +866,7 @@ function WhatsApp() {
         transition:"all .3s",
         animation:"floatB 3s ease-in-out infinite",
       }}
+
       onMouseEnter={e => { e.currentTarget.style.transform="scale(1.15)"; e.currentTarget.style.boxShadow="0 8px 42px rgba(37,211,102,.75)"; }}
       onMouseLeave={e => { e.currentTarget.style.transform="scale(1)";    e.currentTarget.style.boxShadow="0 4px 28px rgba(37,211,102,.5)"; }}
     >
@@ -895,3 +896,5 @@ export default function App() {
     </>
   );
 }
+
+
