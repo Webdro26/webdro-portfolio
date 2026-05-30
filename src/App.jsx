@@ -40,12 +40,20 @@ const PROJECTS = [
     image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&q=80",
   },
   {
-    title: "Shutter Point Photography",
-    url: "https://shutterpoint.netlify.app/",
-    desc: "Cinematic photography portfolio with elegant modern gallery design.",
-    tag: "Photography",
-    color: "#a855f7",
-    image: "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=800&q=80",
+    title: "Deepesh portfolio",
+    url: "https://deepesh19portfolio.netlify.app/",
+    desc: "Modern personal portfolio website for students and creators.",
+    tag: "Portfolio",
+    color: "#06b6d4",
+    image: dp,
+  },
+  {
+    title: "Cafe Nila",
+    url: "https://cafenila.netlify.app/",
+    desc: "Elegant modern café website with cozy aesthetic and premium layout.",
+    tag: "Cafe",
+    color: "#84cc16",
+    image: "https://i.pinimg.com/474x/55/0c/5d/550c5d2f747fc6c4e727bdd98739c19b.jpg?nii=t",
   },
   {
     title: "Shahi Mahal",
@@ -56,14 +64,6 @@ const PROJECTS = [
     image: sm,
   },
   {
-    title: "Deepesh portfolio",
-    url: "https://deepesh19portfolio.netlify.app/",
-    desc: "Modern personal portfolio website for students and creators.",
-    tag: "Portfolio",
-    color: "#06b6d4",
-    image: dp,
-  },
-  {
     title: "Maison Elara Boutique",
     url: "https://maisonelaraboutique.netlify.app/",
     desc: "Luxury fashion boutique with elegant e-commerce inspired UI.",
@@ -72,13 +72,14 @@ const PROJECTS = [
     image: "https://imgmediagumlet.lbb.in/media/2025/04/68061caf974f9124ce627d6d_1745231023760.jpg",
   },
   {
-    title: "Cafe Nila",
-    url: "https://cafenila.netlify.app/",
-    desc: "Elegant modern café website with cozy aesthetic and premium layout.",
-    tag: "Cafe",
-    color: "#84cc16",
-    image: "https://i.pinimg.com/474x/55/0c/5d/550c5d2f747fc6c4e727bdd98739c19b.jpg?nii=t",
+    title: "Shutter Point Photography",
+    url: "https://shutterpoint.netlify.app/",
+    desc: "Cinematic photography portfolio with elegant modern gallery design.",
+    tag: "Photography",
+    color: "#a855f7",
+    image: "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=800&q=80",
   },
+  
 ];
 
 const FAQS = [
