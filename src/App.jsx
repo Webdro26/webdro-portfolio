@@ -15,7 +15,8 @@ import { SiNetlify } from "react-icons/si";
 
 // ── Logo — swap this path to your actual logo file ──────────
 import webdroLogo from "./assets/images/logo.png";
-
+import sm from "./assets/images/sm.png";
+import dp from "./assets/images/dp.png";;
 // ── Data ─────────────────────────────────────────────────────
 const NAV_LINKS = ["Home", "About", "Services", "Projects", "Contact"];
 
@@ -52,7 +53,7 @@ const PROJECTS = [
     desc: "Luxury dark-themed restaurant website with premium menu showcase.",
     tag: "Restaurant",
     color: "#ec4899",
-    image: "C:\\Users\\deepe\\OneDrive\\Desktop\\sm.png",
+    image: sm,
   },
   {
     title: "Deepesh portfolio",
@@ -60,7 +61,7 @@ const PROJECTS = [
     desc: "Modern personal portfolio website for students and creators.",
     tag: "Portfolio",
     color: "#06b6d4",
-    image: "C:\\Users\\deepe\\OneDrive\\Desktop\\dp.png",
+    image: dp,
   },
   {
     title: "Maison Elara Boutique",
